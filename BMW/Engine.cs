@@ -1,4 +1,6 @@
-﻿namespace BMW;
+﻿using System.Globalization;
+
+namespace BMW;
 
 public class Engine
 {
@@ -15,6 +17,16 @@ public class Engine
     public void TurnOff()
     {
         Console.WriteLine("turn off");
+    }
+
+    public string TurboOn()
+    {
+        Console.WriteLine("Turbo on");
+    }
+
+    public string TurboOff()
+    {
+        Console.WriteLine("Turbo off");
     }
     
 }
