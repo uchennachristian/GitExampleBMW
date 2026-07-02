@@ -2,7 +2,7 @@
 
 public class HeadLamp
 {
-    public string HeadlightTypes { get; set; } // TODO: Fix it. You need to replace string to enum.
+    public string HeadlightTypes { get; set; }
     public int Size { get; set; }
     public double Brightness { get; set; }
 
