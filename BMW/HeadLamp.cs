@@ -2,7 +2,7 @@
 
 public class HeadLamp
 {
-    public string HeadlightTypes { get; set; } // TODO: Replace string to HeadlightTypes
+    public string HeadlightTypes { get; set; } // TODO: Replace string to HeadlightTypes enum
     public int Size { get; set; }
     public double Brightness { get; set; }
 

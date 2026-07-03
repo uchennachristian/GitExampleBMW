@@ -2,7 +2,7 @@
 
 public class WindshieldWiper
 {
-    public string Wiper { get; set; }
+    public string Wiper { get; set; } // TODO: What is it?
 
     public void TurnOn()
     {
