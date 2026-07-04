@@ -2,8 +2,8 @@
 
 public class WindshieldWiper
 {
-    public string CarWiper { get; set; } // TODO: What is it? 
-
+    public int Lenght { get; set; } 
+    public int Speed { get; set; }
     public void TurnOn()
     {
         Console.WriteLine("The wiper is going up and down cleaning the windshield");

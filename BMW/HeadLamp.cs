@@ -2,7 +2,7 @@
 
 public class HeadLamp
 {
-    public HeadlightTypes type { get; set; } // TODO: fix property name
+    public HeadlightTypes Types { get; set; }
     public int Size { get; set; }
     public double Brightness { get; set; }
 
