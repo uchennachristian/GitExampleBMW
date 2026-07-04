@@ -2,7 +2,7 @@
 
 public class HeadLamp
 {
-    public HeadlightTypes Types { get; set; } // TODO: Property name need to be singular.
+    public HeadlightType Type { get; set; }
     public int Size { get; set; }
     public double Brightness { get; set; }
 
