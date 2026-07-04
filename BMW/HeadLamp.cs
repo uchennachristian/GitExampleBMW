@@ -2,7 +2,7 @@
 
 public class HeadLamp
 {
-    public string HeadlightTypes { get; set; }
+    public HeadlightTypes type { get; set; }
     public int Size { get; set; }
     public double Brightness { get; set; }
 
